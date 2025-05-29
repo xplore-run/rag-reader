@@ -1,4 +1,4 @@
-# Chatbot - Feed the documentation to chatbot once. Chatbot will answer all queries which can be ansswered from documentation.
+# RagReader
 
 A AI-powered chatbot that uses Retrieval-Augmented Generation (RAG) to answer questions based on PDF documentation. Built with modern Python frameworks and designed for scalability and ease of use.
 
