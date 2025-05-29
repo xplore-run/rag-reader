@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vivekdomain-change-it.com/sitemap.xml

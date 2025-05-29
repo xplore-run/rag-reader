@@ -1,0 +1,15 @@
+embedding:
+  model_name: text-embedding-3-small
+  type: openai
+llm:
+  model: gpt-4o
+  provider: openai
+  temperature: 0.5
+log_level: INFO
+rag:
+  rerank: true
+  score_threshold: 0.7
+  top_k: 10
+vector_store:
+  collection_name: tech-docs-prod
+  type: pinecone
