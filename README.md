@@ -68,12 +68,22 @@ The objective is to provide ready to use production grade RAG powered ChatBot.
 git clone <repository-url>
 cd rag-reader
 
-# Create and activate virtual environment
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+#  ensure python 3.11.7 is installed
+pyenv install 3.11.7
+# set local python version (for current directory and subdirectories)
+# run following command in the root directory of the project
+pyenv local 3.11.7
 
-# Install dependencies
+# optional - it will set python 3.11.7 as global(system wide)
+pyenv global 3.11.7
+
+## create venv and activate
+python3 -m venv venv
+# activate venv 
+source venv/bin/activate
+# install dependencies
 pip install -r requirements.txt
+
 ```
 
 ### 2. Configuration
