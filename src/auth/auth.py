@@ -19,7 +19,7 @@ ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
 ACCESS_TOKEN_EXPIRE_HOURS = int(os.getenv("JWT_EXPIRATION_HOURS", "24"))
 
 # Hardcoded user credentials from environment
-VALID_USER_EMAIL = os.getenv("AUTH_USER_EMAIL", "vivek@trackier.com")
+VALID_USER_EMAIL = os.getenv("AUTH_USER_EMAIL", "xyz@abc.com")
 VALID_USER_PASSWORD = os.getenv("AUTH_USER_PASSWORD", "test@123#")
 
 # Password hashing

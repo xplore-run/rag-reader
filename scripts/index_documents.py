@@ -5,7 +5,7 @@ import sys
 import os
 from pathlib import Path
 import argparse
-from typing import List, Optional
+from typing import Optional
 import time
 from tqdm import tqdm
 

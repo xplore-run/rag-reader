@@ -66,7 +66,7 @@ The objective is to provide ready to use production grade RAG powered ChatBot.
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd chatbot-tech-rag
+cd rag-reader
 
 # Create and activate virtual environment
 python3 -m venv venv
@@ -110,6 +110,12 @@ python scripts/index_documents.py --verify  # Verify after indexing
 
 **Option A: Command Line Interface**
 ```bash
+# Run API
+uvicorn src.api.app:app --reload --port 8000
+
+# Run Web-app(react)
+cd web-app && npm install && npm run dev
+
 # Interactive mode
 python -m src.main
 
